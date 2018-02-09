@@ -28,15 +28,25 @@
 
 .content {
 	height: 500px;
-	width: 400px;
+	width: 650px;
 	background-color: #F5CF8E; /*Yellow*/
 	float: left;
+	padding: 20px;
+}
+
+.article-image {
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin-right: 20px;
+	margin-bottom: 20px;
 }
 
 .footer {
-	height: 200px;
+	/*height: 200px;*/
 	background-color: #D6E9FE; /*LightBlue*/
 	clear: both;
+	border: 5px solid red;
 }
 
 .clear:after {
@@ -46,5 +56,31 @@
 }
 
 p {
-	padding: 20px;
+	/*padding: 20px;*/
+}
+
+.column {
+	background-color: #B2D6FF;
+	height: 160px;
+	width: 31%;
+	margin: 20px 1.16%;
+	float: left;
+}
+
+.avatar {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	background-color: #D6E9FE;
+}
+
+.username {
+	margin-top: 30px;
+}
+
+.comment {
+	margin: 10px;
+	overflow: hidden;
 }
