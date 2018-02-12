@@ -47,7 +47,7 @@ main {
 
 #projects {
 	background: #BD5532;
-	height: 300px;
+	height: 500px;
 	border-radius: 20px 20px 0 0;
 	margin-top: -20px;
 	z-index: 3;
@@ -119,6 +119,10 @@ h2 {
 	width: 30%;
 }
 
+h3 {
+	font-family: 'Bitter', serif;
+}
+
 small {
 	text-align: center;
 	color: white;
@@ -148,4 +152,32 @@ a:link, a:visited {
 a:hover, a:active {
 	color: grey;
     background-color: #DEE1B6;
+}
+
+/*.aboutContent {
+
+}*/
+
+.column {
+	height: 202px;
+	width: 31%;
+	margin: 10px 1.16%;
+	float: left;
+}
+
+p {
+	font-family: 'Bitter', serif;
+	font-size: 1em;
+	font-weight: lighter;
+}
+
+.projImage {
+	width: 100%;
+	height: 20%;
+	float: left;
+}
+
+.projTitle {
+	position: relative;
+
 }
