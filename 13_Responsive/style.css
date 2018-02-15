@@ -1,0 +1,86 @@
+.page {
+	width: 100%;
+}
+
+.section {
+	width: 100%;
+	height: 300px;
+}
+
+.menu {
+	background-color: #5995da;
+	height: 80px;
+}
+
+.header {
+	background-color: #B2D6FF;
+}
+
+.content {
+	background-color: #eaedf0;
+	height: 600px;
+}
+
+.sign-up {
+	background-color: #d6e9fe;
+}
+
+.feature-1 {
+	background-color: #F5CF8E;
+}
+
+.feature-2 {
+	background-color: #F09A9D;
+}
+
+.feature-3 {
+	background-color: #c8c6fa;
+}
+
+/*Mobile Styles*/
+@media only screen and (max-width: 400px) {
+	body {
+		background-color: #F09A9D; /*red*/
+	}
+
+
+}
+
+/*Tablet Styles*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	body {
+		background-color: #F5CF8E; /*yellow*/
+	}
+
+	.signup,
+	.feature-1,
+	.feature-2,
+	.feature-3 {
+		width: 50%;
+		float: left;
+	}
+}
+
+/*Desktop Styles*/
+@media only screen and (min-width: 961px) {
+	body {
+		background-color: #B2D6FF; /*blue*/
+	}
+
+	.page {
+		width: 960px;
+		margin: 0 auto;
+	}
+
+	.feature-1
+	.feature-2
+	.feature-3 {
+		width: 33.3%;
+		float: left;
+	}
+
+	.header {
+		height: 400px;
+	}
+}
+
