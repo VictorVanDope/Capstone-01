@@ -1,0 +1,11 @@
+[class*="col"] { /*All classes with the name "col"*/
+	border: 1px solid black;
+	float: left; /*lets columns sit side by side*/
+	box-sizing: border-box;
+}
+
+/** {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}*/
