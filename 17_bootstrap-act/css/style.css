@@ -1,0 +1,16 @@
+#wrapper {
+	margin-top: 50px;
+}
+
+hr {
+	width: 100%;
+}
+
+#logo-height {
+	height: 30px;
+	margin: 10px;
+}
+
+#list-group-bold {
+	font-weight: bold;
+}
